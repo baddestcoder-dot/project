@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkblue;
+}
+.footer2{
+    width: 900px;
+    margin: 0 auto;
+}
+.company-email{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+form{
+    position: relative;
+    top: 25px;
+}
+input{
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: 900;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 200px;
+    height: 30px;
+}
+button{
+    position: relative;
+    left: -10px;
+    background-color: bisque; 
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    
+}
+.social-links{
+    display: flex;
+    flex-direction: column;
+}
+.follow-us{
+    position: relative;
+    top: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul{
+    width: 200px;
+    position: relative;
+    top: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li a i{
+    color: #fff;
+}
+.company-law{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+.policy{
+    width: 300px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.copyright-law{
+    font-family: monospace;
+    color: #fff;
+}

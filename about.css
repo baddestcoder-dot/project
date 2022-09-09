@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top right, gray, snow, black, gray, snow, black, black);
+    margin: 0;
+    padding: 0;
+}
+
+#squad {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to top right, gray, snow, black);
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    outline: 6px solid grey;
+    background-color: snow;
+
+}
+
+.circle:hover {
+    box-shadow: 18px 18px 18px rgb(75, 71, 71);
+}
+
+.card:hover {
+    box-shadow: 18px 18px 18px rgb(5, 5, 5);
+    transform: scale(1.1);
+
+}
